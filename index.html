@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title># Homework 27 | Розробка повнофункціонального слайдера на чистому JavaScript з використання функціонального підходу</title>
+  <title>Homework 27 | Розробка повнофункціонального слайдера на чистому JavaScript з використання функціонального підходу</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,13 +18,13 @@
 
   <div class="slider">
     <div class="slider-wrapper">
-      <img src="src/images/image-1.webp" alt="image" class="slider-slide">
-      <img src="src/images/image-2.webp" alt="image" class="slider-slide">
-      <img src="src/images/image-3.webp" alt="image" class="slider-slide">
-      <img src="src/images/image-4.webp" alt="image" class="slider-slide">
-      <img src="src/images/image-5.webp" alt="image" class="slider-slide">
-      <img src="src/images/image-6.webp" alt="image" class="slider-slide">
-      <img src="src/images/image-7.webp" alt="image" class="slider-slide">
+      <img src="src/images/image-1.webp" alt="image" class="slider-slide" draggable="false">
+      <img src="src/images/image-2.webp" alt="image" class="slider-slide" draggable="false">
+      <img src="src/images/image-3.webp" alt="image" class="slider-slide" draggable="false">
+      <img src="src/images/image-4.webp" alt="image" class="slider-slide" draggable="false">
+      <img src="src/images/image-5.webp" alt="image" class="slider-slide" draggable="false">
+      <img src="src/images/image-6.webp" alt="image" class="slider-slide" draggable="false">
+      <img src="src/images/image-7.webp" alt="image" class="slider-slide" draggable="false">
     </div>
 
     <div class="slider-control">
@@ -33,13 +33,7 @@
       <button class="slider-control__next">Next</button>
     </div>
 
-    <div class="slider-pagination">
-      <div class="slider-pagination__dot"></div>
-      <div class="slider-pagination__dot"></div>
-      <div class="slider-pagination__dot"></div>
-      <div class="slider-pagination__dot"></div>
-      <div class="slider-pagination__dot"></div>
-    </div>
+    <div class="slider-pagination"></div>
   </div>
 
   <script src="src/scripts/slider.js"></script>
